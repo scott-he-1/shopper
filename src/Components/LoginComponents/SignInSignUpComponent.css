@@ -1,0 +1,69 @@
+.signInSignUp {
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  height: 600px;
+  background: white;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+}
+
+.signInSignUp .mainDisplay {
+  padding: 15px;
+}
+
+.signInSignUp .mainDisplay > * {
+  display: flex;
+  flex-direction: column;
+  grid-gap: 20px;
+  text-align: left;
+}
+
+.signInSignUp > div {
+  align-items: center;
+  justify-content: center;
+}
+
+.signInSignUp .tabs {
+  display: flex;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.signInSignUp .tabs > div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex: 1;
+  height: 50px;
+  box-shadow: 0 -5px 5px rgba(0, 0, 0, 0.2);
+} 
+
+.signInSignUp input {
+  width: 100%;
+}
+
+.signInSignUp .error {
+  position: absolute;
+  color: red;
+  font-size: 12px;
+  right: 0;
+}
+
+.accountButton,
+.faceBookButton {
+  font-weight: 700;
+  color: white;
+  height: 30px;
+}
+
+.accountButton {
+  background: rgba(0, 128, 0, 1) !important;
+}
+
+.faceBookButton {
+  background: rgba(66, 103, 178, 1) !important;
+}

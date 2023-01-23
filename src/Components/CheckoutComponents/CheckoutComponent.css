@@ -1,0 +1,64 @@
+.checkoutComponent {
+  display: flex;
+  margin-top: 15px;
+  background: white;
+  height: 95vh;
+  padding: 5px;
+}
+
+.checkoutComponent > div {
+  flex: 1;
+  padding: 15px;
+}
+
+.cartItemsSection {
+  width: 50%;
+  overflow: auto;
+}
+
+.cartItemsComponent {
+  display: flex;
+  flex-direction: column;
+  grid-gap: 20px;
+}
+
+.summaryComponent {
+  width: 100%;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  grid-gap: 15px;
+}
+
+.summaryHeader {
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+.summaryLine,
+.orderTotal {
+  display: flex;
+}
+
+.summaryLineHeader,
+.orderTotalHeader {
+  margin-right: auto;
+}
+
+.orderTotal {
+  color: rgba(170, 0, 0, 1);
+  font-size: 1.5rem;
+}
+
+.placeOrderButton {
+  height: 40px;
+  background: rgba(255, 252, 127, 1);
+  border: none;
+  border-radius: 15px;
+  padding: 15px;
+}
+
+.placeOrderButton:hover {
+  border: 1px solid black;
+}

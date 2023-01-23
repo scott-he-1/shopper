@@ -1,0 +1,30 @@
+.cartItemInfo {
+  display: flex;
+  flex-direction: column;
+  grid-gap: 5px;
+}
+
+.cartItem {
+  display: flex;
+  align-items: center;
+  grid-gap: 15px;
+}
+
+.cartItem img {
+  height: 100px;
+  width: 75px;
+}
+
+.cartItemCategory {
+  color: rgba(128, 128, 128, 0.5);
+  font-size: 12px;
+}
+
+.cartItemName {
+  font-size: 1.25rem;
+  font-weight: 700;
+}
+
+.cartItemAmountNumber {
+  font-size: 1.25rem;
+}

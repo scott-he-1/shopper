@@ -1,0 +1,1 @@
+export const testAccountPictureUrl = 'https://www.freeiconspng.com/thumbs/profile-icon-png/profile-icon-9.png'

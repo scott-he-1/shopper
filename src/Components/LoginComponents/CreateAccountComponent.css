@@ -1,0 +1,14 @@
+.createAccountComponent {
+  position: relative;
+}
+
+.createAccountComponent svg {
+  cursor: pointer;
+  position: absolute;
+  right: 5px;
+  top: 85px;
+}
+
+.extraText {
+  font-size: 12px;
+}
