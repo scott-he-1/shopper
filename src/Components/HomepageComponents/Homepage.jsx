@@ -18,7 +18,7 @@ class Homepage extends React.Component {
       showMiniCart: false,
 
       showLogin: false,
-      loggedInAs: localStorage.getItem('loggedInEmail'),
+      loggedInAs: localStorage.getItem('loggedInEmail') ? localStorage.getItem('loggedInEmail') : '',
 
       showMainCart: false,
       showAccountOptions: false,
